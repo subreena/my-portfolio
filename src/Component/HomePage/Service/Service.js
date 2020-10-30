@@ -23,7 +23,7 @@ const Service = () => {
                 <div className="col-12 col-lg-3">
                     <div className="col-content">
                     <i class="fa fa-file-code-o fa-3x mb-2 col-i" aria-hidden="true"></i>
-                    <h2>10+</h2>
+                    <h2>30+</h2>
                     <h4>Projects Done</h4>
                     </div>
                 </div>
