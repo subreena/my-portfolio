@@ -1,0 +1,13 @@
+.intro{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(212, 206, 206);
+    margin-bottom: 50px;
+}
+
+.intro-text>h2{
+    text-transform: capitalize;
+}
+.intro-text>h3{
+    text-transform: capitalize;
+}
