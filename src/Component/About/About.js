@@ -15,6 +15,9 @@ const About = () => {
 
         
         </p>
+        <p>
+            Expertise: <span className="bage-info">Reactjs</span>
+        </p>
         </div>
             </div>
         </div>

@@ -37,6 +37,21 @@
     margin: 10px;
    
 }
+.skill-content{
+    border: 1px solid #000;
+    border-radius: 15px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    z-index: 2;
+    position: relative;
+    opacity: 1;
+    margin: 10px;
+   
+}
 .col-content>.col-i{
     transform: rotateY(0);
     transition: .8s linear;

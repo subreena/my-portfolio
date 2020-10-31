@@ -7,7 +7,7 @@ const NavBar = () => {
         <>
        <Navbar expand="lg">
            <div className="container">
-  <Link className="navbar-brand" style={{fontSize: '23px' }}>
+  <Link to="/" className="navbar-brand" style={{fontSize: '23px' }}>
   Subreena
   </Link>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
