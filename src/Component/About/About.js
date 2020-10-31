@@ -7,7 +7,7 @@ const About = () => {
         <NavBar></NavBar>
         <div className="about">
             <div className="container">
-            <div className="text-center">
+            <div className="text-center p-5" style={{minHeight: '100vh'}}>
             <h2>About me</h2>
         <p>Hello I am Subreena. <br/>
         I am a Full stack web developer with skills of Reactjs, Node js, Mongo db, Express and many more.I am currently studying in 
