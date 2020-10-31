@@ -6,9 +6,11 @@ const Works = () => {
     return (
         <>
         <NavBar></NavBar>
-        <div className="work">
+        <hr/>
+        <div className="work p-5">
         <div className="container">
           <div className="text-center">
+             
           <h2 className="text-center">
                 My Works
             </h2>
@@ -18,7 +20,7 @@ const Works = () => {
          <div>
              <WorkCarousel></WorkCarousel>
          </div>
-         <div className="row">
+         <div className="row pt-4">
              <div className="col-12 col-md-6">
              <ul>
             <li className="list-item">
@@ -30,8 +32,8 @@ const Works = () => {
                        <li>There is also a secured customer panel where a customer can see his/her selected services, can place an order and also can add reviews</li>
                        <li className="list-item">It is made by react js , Node, Mongo db, Express js and more.</li>
                     <li className="list-item">
-                    <a href="https://creative-agency-bysubreena.firebaseapp.com/"target="_blank" rel="noopener noreferrer">Live Link </a>
-                           <a href="https://github.com/subreena/creative-agency"target="_blank" rel="noopener noreferrer"> Github Link</a>
+                    <a href="https://creative-agency-bysubreena.firebaseapp.com/"target="_blank" rel="noopener noreferrer" className="mt-3 badge badge-secondary p-2 mr-2"  style={{fontSize: '16px'}}>Live Link </a>
+                           <a href="https://github.com/subreena/creative-agency"target="_blank" rel="noopener noreferrer" className="mt-3 badge badge-secondary p-2 mr-2"  style={{fontSize: '16px'}}> Github Link</a>
                        </li>
                     </ul>
                    </p>
@@ -49,8 +51,8 @@ const Works = () => {
                             <li className="list-item">The user can see and delete his/her chosen tasks</li>
                             <li className="list-item">There is a basic admin panel where the admin can delete selected tasks and add new tasks</li>
                             <li className="list-item">It is made by react js , Node, Mongo db, Express js and more.</li>
-                            <li><a href="https://volunteer-network-bysubreena.web.app/" target="_blank" rel="noopener noreferrer">Live Link </a> 
-                            <a href="https://github.com/subreena/volunteer-network" target="_blank" rel="noopener noreferrer"> Github Repository</a></li>
+                            <li><a href="https://volunteer-network-bysubreena.web.app/" target="_blank" rel="noopener noreferrer" className="mt-3 badge badge-secondary p-2 mr-2"  style={{fontSize: '16px'}}>Live Link </a> 
+                            <a href="https://github.com/subreena/volunteer-network" target="_blank" rel="noopener noreferrer" className="mt-3 badge badge-secondary p-2 mr-2" style={{fontSize: '16px'}}>Github Repository Link</a></li>
                         </ul>
                        </p>
                 </li>
@@ -65,8 +67,8 @@ const Works = () => {
                        <li className="list-item">In this website a user can select a destination and see the hotels available in that location</li>
                        <li className="list-item">This website is made using React js, React Router, Firebase auth and more</li>
                        <li className="list-item">
-                       <a href="https://travel-guru-by-subreena.firebaseapp.com/"target="_blank" rel="noopener noreferrer">Live Link </a>
-                           <a href="https://github.com/subreena/travel-guru-app"target="_blank" rel="noopener noreferrer"> Github Link</a>
+                       <a href="https://travel-guru-by-subreena.firebaseapp.com/"target="_blank" rel="noopener noreferrer" className="mt-3 badge badge-secondary p-2 mr-2"  style={{fontSize: '16px'}}>Live Link </a>
+                           <a href="https://github.com/subreena/travel-guru-app"target="_blank" rel="noopener noreferrer" className="mt-3 badge badge-secondary p-2 mr-2"  style={{fontSize: '16px'}}>Github Repository Link</a>
                            
                        </li>
                     </ul>
@@ -83,8 +85,8 @@ const Works = () => {
                             <li className="list-item">There are also comments and user images and other details of the posts</li>
                             <li className="list-item">This website is made using Reactjs , React Router, Material Ui and more.</li>
                             <li>
-                                <a href=" https://social-buddy-react-app.netlify.app/"target="_blank" rel="noopener noreferrer">Live Link </a>
-                                <a href="https://github.com/subreena/social-buddy"target="_blank" rel="noopener noreferrer"> Github Repository</a>
+                                <a href=" https://social-buddy-react-app.netlify.app/"target="_blank" rel="noopener noreferrer" className="mt-3 badge badge-secondary p-2 mr-2"  style={{fontSize: '16px'}}>Live Link </a>
+                                <a href="https://github.com/subreena/social-buddy"target="_blank" rel="noopener noreferrer" className="mt-3 badge badge-secondary p-2 mr-2"  style={{fontSize: '16px'}}>Github Repository Link</a>
                             </li>
                         </ul>
                     </p>
@@ -102,7 +104,8 @@ const Works = () => {
                     <li>This is a online couse website where a user can add courses of choice</li>
                     <li>This is made using React js and more</li>
                     <li className="list-item">
-                           <a href="https://relaxed-noether-ad57a2.netlify.app/">Live Link </a><a href="https://github.com/subreena/online-class"> Github Link</a>
+                           <a href="https://relaxed-noether-ad57a2.netlify.app/" className="mt-3 badge badge-secondary p-2 mr-2"  style={{fontSize: '16px'}}>Live Link </a>
+                           <a href="https://github.com/subreena/online-class" className="mt-3 badge badge-secondary p-2 mr-2"  style={{fontSize: '16px'}}> Github Repository Link</a>
                        </li>
                     </ul>
                 </p>
