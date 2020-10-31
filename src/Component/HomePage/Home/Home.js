@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../../Footer/Footer';
 import NavBar from '../../Nav/NavBar';
 import Banner from '../Banner/Banner';
+import HomeContact from '../HomeContact';
 import Intro from '../Intro/Intro';
 import Service from '../Service/Service';
 import Skills from '../Skills/Skills';
@@ -17,6 +18,7 @@ const Home = () => {
          <Service></Service>
          <Skills></Skills>
          <Testimonial></Testimonial>
+         <HomeContact></HomeContact>
         <div className="bg-dark text-light">
         <Footer></Footer>
         </div>

@@ -13,8 +13,8 @@ const Intro = () => {
                    <div className="intro-text m-3">
                    <h3>Hello! I am Subreena</h3>
                     <h2 className="text-muted">A Full-stack Web Developer and Designer</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque in, accusamus veniam pariatur porro laborum quod accusantium perferendis fugit eligendi ea, voluptas ratione?</p>
-                    <p>Ibusdam nemo, eligendi modi, maiores pariatur excepturi incidunt deserunt voluptatibus praesentium aliquid qui voluptas accusantium dolorem eaque? Similique possimus excepturi neque delectus repellat, inventore vero id reiciendis. Possimus, est porro sequi in exercitationem iste animi reiciendis tenetur quisquam atque deleniti!</p>
+                    <p>I am a learning Web Developer and designer. I am very curious and am ambitiuos to polish my skills and learn new skills everyday.</p>
+                    <p>I am a student at the department of Information and Communication Engineering in Noakhali Science and Technology. </p>
                     <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1IClmD6642OxGCwDYZSv1Y9VxtxPZNDjx/view?usp=sharing"
                      className="btn btn-lg btn-outline-dark text-bold mr-3">Check Out My Resume</a>
                    </div>
