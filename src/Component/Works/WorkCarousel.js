@@ -18,13 +18,13 @@ const WorkCarousel = () => {
       ];
     return (
         <Carousel breakPoints={breakPoints}>
-               <img src={slider1} alt="" style={{width: '90%',backgroundPosition:'center center', height: '430px', borderRadius:'10px', marginRight: '15px'}}  />
-               <img src={slider2} alt="" style={{width: '90%',backgroundPosition:'center center', height: '430px', borderRadius:'10px', marginRight: '15px'}}  />
-               <img src={slider3} alt="" style={{width: '90%',backgroundPosition:'center center', height: '430px', borderRadius:'10px', marginRight: '15px'}}  />
-               <img src={slider4} alt="" style={{width: '90%',backgroundPosition:'center center', height: '430px', borderRadius:'10px', marginRight: '15px'}}  />
-               <img src={slider5} alt="" style={{width: '90%',backgroundPosition:'center center', height: '430px', borderRadius:'10px', marginRight: '15px'}}  />
-               <img src={slider6} alt="" style={{width: '90%',backgroundPosition:'center center', height: '430px', borderRadius:'10px', marginRight: '15px'}}  />
-               <img src={slider7} alt="" style={{width: '90%',backgroundPosition:'center center', height: '430px', borderRadius:'10px', marginRight: '15px'}}  />
+               <img src={slider1} alt="" style={{width: '100%',backgroundPosition:'top',objectFit: 'cover', height: '400px', borderRadius:'10px', marginRight: '15px'}}  />
+               <img src={slider2} alt="" style={{width: '100%',backgroundPosition:'top',objectFit: 'cover', height: '400px', borderRadius:'10px', marginRight: '15px'}}  />
+               <img src={slider3} alt="" style={{width: '100%',backgroundPosition:'top',objectFit: 'cover', height: '400px', borderRadius:'10px', marginRight: '15px'}}  />
+               <img src={slider4} alt="" style={{width: '100%',backgroundPosition:'top',objectFit: 'cover', height: '400px', borderRadius:'10px', marginRight: '15px'}}  />
+               <img src={slider5} alt="" style={{width: '100%',backgroundPosition:'top',objectFit: 'cover', height: '400px', borderRadius:'10px', marginRight: '15px'}}  />
+               <img src={slider6} alt="" style={{width: '100%',backgroundPosition:'top',objectFit: 'cover', height: '400px', borderRadius:'10px', marginRight: '15px'}}  />
+               <img src={slider7} alt="" style={{width: '100%',backgroundPosition:'top',objectFit: 'cover', height: '400px', borderRadius:'10px', marginRight: '15px'}}  />
             </Carousel>
     );
 };
