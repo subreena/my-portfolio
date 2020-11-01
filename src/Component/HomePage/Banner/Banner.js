@@ -25,12 +25,12 @@ const Banner = () => {
             <div className="banner-text">
                <h1>Subreena</h1>
                <h3 style={{ display: 'flex', textAlign: 'center' }}>
-                  <span style={{ marginRight: '10px' }}> I am  </span> <Typewriter
+                  <span style={{ marginRight: '10px' }}> I </span> <Typewriter
                      options={{
-                        strings: [' A Full-Stack Web Developer',
-                           ' An Enthusiastic Content Writer',
-                           ' A Creative Web Designer',
-                           'A Self-employed Freelancer'],
+                        strings: [' Am A Full-Stack Web Developer',
+                           ' Am An Enthusiastic Content Writer',
+                           ' Am A Creative Web Designer',
+                           ' Am A Self-employed Freelancer'],
                         autoStart: true,
                         loop: true,
                      }}

@@ -1,0 +1,11 @@
+.work{
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+.work:hover{
+box-shadow: 5px 5px 4px lightgrey;
+padding: 15px;
+border-radius: 10px;
+ 
+}

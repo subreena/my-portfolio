@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
     <>
-      <Navbar expand="lg">
+      <Navbar expand="lg" style={{zIndex: '2', position: 'relative'}}>
         <div className="container">
           <Link to="/" className="navbar-brand" style={{ fontSize: '23px' }}>
             Subreena

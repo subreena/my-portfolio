@@ -3,17 +3,19 @@ import NavBar from '../Nav/NavBar';
 import Footer from '../Footer/Footer';
 import WorkCarousel from './WorkCarousel';
 import Particles from 'react-particles-js';
+import './Works.css';
 const Works = () => {
     return (
         <>
         <NavBar></NavBar>
         <hr/>
         <div className="work p-5">
+       
         <Particles
     params={{
 	    "particles": {
 	        "number": {
-	            "value": 100,
+	            "value": 50,
 	            "density": {
 	                "enable": true,
 	                "value_area": 800
@@ -115,9 +117,10 @@ const Works = () => {
 	    },
 	    "retina_detect": false
 	}} 
-    style={{ width: "100%", height: "100%", position: "absolute", top: "60px", left: "0", zIndex: '1' }} 
+    style={{ width: "100%", height: "100%",top: '60px',left: '0', position: "absolute", zIndex: '1' }} 
     />
-        <div className="container" style={{zIndex: '2', position: 'relative'}}>
+     <div className="container"  style={{zIndex: '2', position: 'relative'}} >
+        
           <div className="text-center">
              
           <h2 className="text-center">
@@ -131,7 +134,8 @@ const Works = () => {
          </div>
          <div className="row pt-4">
              <div className="col-12 col-md-6">
-             <ul>
+     <div className="work">
+     <ul>
             <li className="list-item">
                     <h3>Creative Agency</h3>
                    <p>
@@ -148,10 +152,11 @@ const Works = () => {
                    </p>
                 </li>
                 </ul>
+     </div>
              </div>
              <div className="col-12 col-md-6">
-                 <ul>
-                     
+              <div className="work">
+              <ul>     
                 <li className="list-item">
                       <h3>Volunteer Network</h3>
                        <p>
@@ -166,9 +171,11 @@ const Works = () => {
                        </p>
                 </li>
                  </ul>
+              </div>
              </div>
              <div className="col-12 col-md-6">
-                 <ul>
+                <div className="work">
+                <ul>
                  <li className="list-item">
                     <h3>Travel Guru</h3>
                     <ul className="list-group">
@@ -183,9 +190,11 @@ const Works = () => {
                     </ul>
                 </li>
                  </ul>
+                </div>
              </div>
              <div className="col-12 col-md-6">
-                 <ul>
+               <div className="work">
+               <ul>
                  <li className="list-item">
                     <h3>Social Buddy</h3>
                     <p>
@@ -201,10 +210,11 @@ const Works = () => {
                     </p>
                 </li>
                  </ul>
+               </div>
              </div>
              <div className="col-12 col-md-6">
-                      
-           <ul>
+               <div className="work">
+               <ul>
                 <li className="list-item">
                 <h3>Online Classs</h3>
                 <p>
@@ -220,6 +230,7 @@ const Works = () => {
                 </p>
                 </li>
             </ul>
+               </div>
              </div>
          </div>
                
