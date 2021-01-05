@@ -54,7 +54,7 @@ const About = () => {
         </p>
         <div className="mt-4"  >
                  <div style={{zIndex: '2', position: 'relative'}}>
-                 <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1IClmD6642OxGCwDYZSv1Y9VxtxPZNDjx/view?usp=sharing"
+                 <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1FQ-AdlHb4uPAgi3DE2MVKaQAs-kmVgPb/view?usp=sharing"
                      className="btn btn-lg btn-outline-light text-bold mr-3"
                     
                      >Check Out My Resume</a>
@@ -102,6 +102,8 @@ const About = () => {
                             <span className="mr-1 ml-1 p-2 badge badge-light"> Netlify</span >
                             <span className="mr-1 ml-1 p-2 badge badge-light"> Microsoft Office</span >
                         </h4 >
+                        <hr/>
+                        
                     </div>
                 </div>
             </div>

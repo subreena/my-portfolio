@@ -38,7 +38,7 @@ const Banner = () => {
                </h3>
              
                <div className="mt-4">
-                  <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1IClmD6642OxGCwDYZSv1Y9VxtxPZNDjx/view?usp=sharing"
+                  <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1FQ-AdlHb4uPAgi3DE2MVKaQAs-kmVgPb/view?usp=sharing"
                      className="btn btn-lg btn-outline-light text-bold mr-3">Check Out My Resume</a>
                      
                                     <TopNav></TopNav>

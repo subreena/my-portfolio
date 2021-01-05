@@ -16,7 +16,7 @@ const Intro = () => {
  <h2 className="text-muted">A Full-stack Web Developer and Designer</h2>
  <p>To intoduce myself, Firstly I like would say that I am a MERN stack learning Web Developer and designer.I have flourished my expertise in React js, Node, Mongodb, Express, Gatsby, Javascript and more. I am very curious and am ambitiuos to polish my skills and learn new skills everyday.</p>
 <p>I am a student at the department of Information and Communication Engineering in Noakhali Science and Technology. </p>
- <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1IClmD6642OxGCwDYZSv1Y9VxtxPZNDjx/view?usp=sharing"
+ <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1FQ-AdlHb4uPAgi3DE2MVKaQAs-kmVgPb/view?usp=sharing"
 className="btn btn-lg btn-outline-dark text-bold mr-3">Check Out My Resume</a>
  </div>
  </div>

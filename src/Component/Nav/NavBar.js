@@ -19,7 +19,7 @@ const NavBar = () => {
               <Link to="/blogs" className="nav-link" style={{ fontSize: "18px" }}>Blogs</Link>
               <Link to="/contact" className="nav-link" style={{ fontSize: "18px" }}>Contact</Link>
               <a target="_blank" rel="noopener noreferrer"
-                href="https://drive.google.com/file/d/1IClmD6642OxGCwDYZSv1Y9VxtxPZNDjx/view?usp=sharing"
+                href="https://drive.google.com/file/d/1FQ-AdlHb4uPAgi3DE2MVKaQAs-kmVgPb/view?usp=sharing"
                 className="nav-link btn btn-secondary text-light ml-1">
                 Resume</a>
 
